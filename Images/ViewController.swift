@@ -42,6 +42,7 @@ else        {
             if(gameState[combinations[0]] == gameState[combinations[1]] && gameState[combinations[1]] == gameState[combinations[2]] && gameState[combinations[0]] != 0)
             {
                 print("WE have a winner")
+                print("Indeed wwe do")
                 winner = gameState[combinations[0]]
             }
         }
